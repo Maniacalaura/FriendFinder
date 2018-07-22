@@ -65,7 +65,7 @@ var friendArr = [
           ]
       },
       {
-        "name":"Ray Holt",
+        "name":"Raymond Holt",
         "photo":"https://m.media-amazon.com/images/M/MV5BNjg5NDQ5MDAzMF5BMl5BanBnXkFtZTgwMjUzNTA3NjE@._V1_SY1000_CR0,0,1334,1000_AL_.jpg",
         "scores":[
             1,

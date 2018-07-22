@@ -184,7 +184,7 @@
                     
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <center><button type="button" class="btn btn-secondary questions" data-dismiss="modal">Close</button></center>
                   </div>
                 </div>
               </div>
@@ -198,7 +198,7 @@
     <footer class="footer">
       <div class="container">
           <hr>
-        <p><a href="/api/friends">API Friend List</a> | <a href="https://github.com/Maniacalaura/FriendFinder">GitHub Repo</a></p>
+        <p><a href="/api/friends" target=_blank>API Friend List</a> | <a href="https://github.com/Maniacalaura/FriendFinder" target=_blank>GitHub Repo</a></p>
       </div>
     </footer>
 
@@ -234,11 +234,11 @@
                 $(".modal-body").empty();
                 $(".modal-title").empty();
             console.log(data);
-            $(".modal-title").append(data.name);
+            $(".modal-title").append("<h2 text-align='center'>Your new friend is: " + "<br>" + data.name + "!" + "</h2>");
             var img = $('<img />').attr({
                 'src': data.photo,
-                'alt': 'Your Friend',
-                'width': 250
+                'alt': 'Boom Boom!',
+                'width': 450
             }).appendTo('.modal-body');
             $("#friendModal").modal("show");
               // Clear the form when submitting
