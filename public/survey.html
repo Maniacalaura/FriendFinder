@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Survey</title>
-
-  <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery.js"></script>
@@ -31,13 +29,13 @@
               </div>
 
               <div class="form-group">
-                <label for="reserve-phone">Link to Photo (required)</label>
-                <input type="text" class="form-control" id="reserve-phone">
+                <label for="reserve-photo">Link to Photo (required)</label>
+                <input type="text" class="form-control" id="reserve-photo">
               </div>
               <h4>1.)</h4>
               <p>Your mind is always buzzing with unexplored ideas and plans.</p>
-              <div class="card" style="width: 18rem;">
-                 <select class="form-control form-control-sm" id="q1">
+              <div class="questions" style="width: 18rem;">
+                 <select class="form-control form-control-sm" id="one">
                     <option selected value="1">1 - Strongly Disagree</option>  
                     <option selected value="2">2 - Somewhat Disagree</option>  
                     <option selected value="3">3 - Neither Agree or Disagree</option>  
@@ -50,8 +48,8 @@
               <br>
               <h3>2.)</h3>
               <p>Generally speaking, you rely more on your experience than your imagination.</p>
-              <div class="card" style="width: 18rem;">  
-              <select class="form-control form-control-sm" id="q2">
+              <div class="questions" style="width: 18rem;">  
+              <select class="form-control form-control-sm" id="two">
                     <option selected value="1">1 - Strongly Disagree</option>  
                     <option selected value="2">2 - Somewhat Disagree</option>  
                     <option selected value="3">3 - Neither Agree or Disagree</option>  
@@ -63,8 +61,8 @@
               <br>
               <h3>3.)</h3>
               <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
-              <div class="card" style="width: 18rem;">   
-              <select class="form-control form-control-sm" id="q3">
+              <div class="questions" style="width: 18rem;">   
+              <select class="form-control form-control-sm" id="three">
                     <option selected value="1">1 - Strongly Disagree</option>  
                     <option selected value="2">2 - Somewhat Disagree</option>  
                     <option selected value="3">3 - Neither Agree or Disagree</option>  
@@ -76,8 +74,8 @@
               <br> 
               <h3>4.)</h3>
               <p>You rarely do something just out of sheer curiosity.</p>
-              <div class="card" style="width: 18rem;"> 
-              <select class="form-control form-control-sm" id="q4">
+              <div class="questions" style="width: 18rem;"> 
+              <select class="form-control form-control-sm" id="four">
                     <option selected value="1">1 - Strongly Disagree</option>  
                     <option selected value="2">2 - Somewhat Disagree</option>  
                     <option selected value="3">3 - Neither Agree or Disagree</option>  
@@ -89,8 +87,8 @@
               <br> 
               <h3>5.)</h3>
               <p>People can rarely upset you.</p>
-              <div class="card" style="width: 18rem;">   
-              <select class="form-control form-control-sm" id="q5">
+              <div class="questions" style="width: 18rem;">   
+              <select class="form-control form-control-sm" id="five">
                     <option selected value="1">1 - Strongly Disagree</option>  
                     <option selected value="2">2 - Somewhat Disagree</option>  
                     <option selected value="3">3 - Neither Agree or Disagree</option>  
@@ -102,8 +100,8 @@
               <br>
               <h3>6.)</h3>
               <p>It is often difficult for you to relate to other people’s feelings.</p>
-              <div class="card" style="width: 18rem;">   
-              <select class="form-control form-control-sm" id="q6">
+              <div class="questions" style="width: 18rem;">   
+              <select class="form-control form-control-sm" id="six">
                     <option selected value="1">1 - Strongly Disagree</option>  
                     <option selected value="2">2 - Somewhat Disagree</option>  
                     <option selected value="3">3 - Neither Agree or Disagree</option>  
@@ -115,8 +113,8 @@
               <br>
               <h3>7.)</h3>
               <p>In a discussion, truth should be more important than people’s sensitivities.</p>
-              <div class="card" style="width: 18rem;">  
-              <select class="form-control form-control-sm" id="q7">
+              <div class="questions" style="width: 18rem;">  
+              <select class="form-control form-control-sm" id="seven">
                     <option selected value="1">1 - Strongly Disagree</option>  
                     <option selected value="2">2 - Somewhat Disagree</option>  
                     <option selected value="3">3 - Neither Agree or Disagree</option>  
@@ -128,8 +126,8 @@
               <br>
               <h3>8.)</h3>
               <p>You rarely get carried away by fantasies and ideas.</p>
-              <div class="card" style="width: 18rem;">
-              <select class="form-control form-control-sm" id="q8">
+              <div class="questions" style="width: 18rem;">
+              <select class="form-control form-control-sm" id="eight">
                     <option selected value="1">1 - Strongly Disagree</option>  
                     <option selected value="2">2 - Somewhat Disagree</option>  
                     <option selected value="3">3 - Neither Agree or Disagree</option>  
@@ -141,8 +139,8 @@
               <br>
               <h3>9.)</h3>
               <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
-              <div class="card" style="width: 18rem;"> 
-              <select class="form-control form-control-sm" id="q9">
+              <div class="questions" style="width: 18rem;"> 
+              <select class="form-control form-control-sm" id="nine">
                     <option selected value="1">1 - Strongly Disagree</option>  
                     <option selected value="2">2 - Somewhat Disagree</option>  
                     <option selected value="3">3 - Neither Agree or Disagree</option>  
@@ -154,8 +152,8 @@
               <br> 
               <h3>10.)</h3>
               <p>You feel more energetic after spending time with a group of people.</p>
-              <div class="card" style="width: 18rem;">
-                 <select class="form-control form-control-sm" id="q10">
+              <div class="questions" style="width: 18rem;">
+                 <select class="form-control form-control-sm" id="ten">
                     <option selected value="1">1 - Strongly Disagree</option>  
                     <option selected value="2">2 - Somewhat Disagree</option>  
                     <option selected value="3">3 - Neither Agree or Disagree</option>  
@@ -167,7 +165,30 @@
 
             </form>
             <br>
-            <button class="btn btn-lg btn-primary">Submit</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              Submit
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="friendModal">Your New Friend Is:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
             <br>
           </div>
         </div>
@@ -187,6 +208,57 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+
+  <script>
+  $(document).on("click",".questions", function(event) {
+          event.preventDefault();
+          var survey = {
+            name: $("#reserve-name").val().trim(),
+            photo: $("#reserve-photo").val().trim(),
+            scores: [
+                parseInt($("#one").val().substr(0,1)),
+                parseInt($("#two").val().substr(0,1)),
+                parseInt($("#three").val().substr(0,1)),
+                parseInt($("#four").val().substr(0,1)),
+                parseInt($("#five").val().substr(0,1)),
+                parseInt($("#six").val().substr(0,1)),
+                parseInt($("#seven").val().substr(0,1)),
+                parseInt($("#eight").val().substr(0,1)),
+                parseInt($("#nine").val().substr(0,1)),
+                parseInt($("#ten").val().substr(0,1))
+            ]
+          };
+          console.log(survey);
+          $.post("/api/friends", survey,
+            function(data) {
+                $(".modal-body").empty();
+                $(".modal-title").empty();
+            console.log(data);
+            $(".modal-title").append(data.name);
+            var img = $('<img />').attr({
+                'src': data.photo,
+                'alt': 'Your Friend',
+                'width': 250
+            }).appendTo('.modal-body');
+            $("#friendModal").modal("show");
+              // Clear the form when submitting
+              $("#reserve-name").val("");
+              $("#reserve-photo").val("");
+              $("#one").val("0");
+              $("#two").val("0");
+              $("#three").val("0");
+              $("#four").val("0");
+              $("#five").val("0");
+              $("#six").val("0");
+              $("#seven").val("0");
+              $("#eight").val("0");
+              $("#nine").val("0");
+              $("#ten").val("0");
+            });
+        });
+
+
+  </script>
   
 </body>
 </html>
